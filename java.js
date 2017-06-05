@@ -1,6 +1,8 @@
+var file = 100.0;
 function setup() {
 	createCanvas(800, 500);
 }
 function draw() {
-	ellipse(100, 100, 100, 100);
+	fill(255);
+	ellipse(file, file, file, file);
 }

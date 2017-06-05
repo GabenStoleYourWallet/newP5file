@@ -10,6 +10,7 @@ function setup() {
 function draw() {
 	background(155);
 	fill(255);
-	loc.add(vel)add(g);
+	vel.add(g);
+	loc.add(vel).add(g);
 	ellipse(loc.x, loc.y, file, file);
 }

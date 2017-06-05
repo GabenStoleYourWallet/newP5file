@@ -3,6 +3,6 @@ function setup() {
 	createCanvas(800, 500);
 }
 function draw() {
-	fill(255);
+	fill(0);
 	ellipse(file, file, file, file);
 }
